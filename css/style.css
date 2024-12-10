@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Dancing';
+    src: url(../fonts/Dancing/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Alex_Brush';
+    src: url(../fonts/Alex_Brush/AlexBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Mr_De_Haviland';
+    src: url(../fonts/Mr_De_Haviland/MrDeHaviland-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+.interface {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    scroll-snap-align: start;
+}
+
+.description {
+    width: 50vw;
+}
+
+.page1 {
+    background-image: linear-gradient(#efc4f8, #7514d2);
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration:underline;
+}
+
+.page1 > .description > h1 {
+    font-family: 'Dancing';
+    font-size: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.page2 {
+    background-image: linear-gradient(#f9f9f9, #c9c9c9);
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.page2 > .description > h1 {
+    font-family: 'Alex_Brush';
+    font-size: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.page2 > .description > h1 > a {
+    color: black;
+}
+
+.page3 {
+    background-image: linear-gradient(#fefefe, #5e82be);
+    display: flex;
+    justify-content: space-around;    
+}
+
+.page3 > .description > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.page4 {
+    background-image: linear-gradient(#1f82c5, #0e4f7a);
+    display: flex;
+    justify-content: space-around;
+}
+
+.page4 > .description > h1 {
+    font-family: 'Mr_De_Haviland';
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.page5 {
+    background-image: linear-gradient(#755441, #3d3a2b);
+    display: flex;
+    justify-content: space-around;
+}
+
+.page6 {
+    background-image: linear-gradient(#0d1316, #7d5db9, #4e54a7);
+    display: flex;
+    justify-content: space-around;
+}
+
+.page6 > .description > h1 {
+    font-family: 'Oswald';
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
