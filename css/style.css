@@ -1,27 +1,14 @@
+/* Fonts */
+@import url(./fonts.css);
+@import url(./medias.css);
+
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
 }
 
-@font-face {
-    font-family: 'Dancing';
-    src: url(../fonts/Dancing/DancingScript-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: 'Alex_Brush';
-    src: url(../fonts/Alex_Brush/AlexBrush-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Mr_De_Haviland';
-    src: url(../fonts/Mr_De_Haviland/MrDeHaviland-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Oswald';
-    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
-}
+/* Interface Roll Effect */
 
 .interface {
     height: 100vh;
@@ -41,14 +28,15 @@ section {
     scroll-snap-align: start;
 }
 
+/* Global seetings description */
+
 .description {
     width: 50vw;
 }
 
-.page1 {
-    background-image: linear-gradient(#efc4f8, #7514d2);
-    display: flex;
-    justify-content: space-around;
+.description > p {
+    font-family: 'Roboto';
+    font-size: 17px;
 }
 
 .links {
@@ -60,12 +48,49 @@ section {
     text-decoration:underline;
 }
 
+/* Welcome page */
+
+.page0 {
+    background-color: #f3ebbc;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding-right: 20px;
+}
+
+.page0 > .description > h1 {
+    font-family: 'Poiret_One';
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.page0 > .description > h1 > a {
+    color: black;
+}
+
+.page0 > .description > h1 > a:hover {
+    text-decoration: none;
+    cursor: auto;
+}
+
+/* First song: Until I Found you */
+
+.page1 {
+    background-image: linear-gradient(#efc4f8, #7514d2);
+    display: flex;
+    justify-content: space-around;
+}
+
 .page1 > .description > h1 {
     font-family: 'Dancing';
     font-size: 50px;
     padding-bottom: 20px;
     text-align: center;
 }
+
+/* Second song: Dandelions */
 
 .page2 {
     background-image: linear-gradient(#f9f9f9, #c9c9c9);
@@ -85,6 +110,8 @@ section {
     color: black;
 }
 
+/* Third song: Oceano */
+
 .page3 {
     background-image: linear-gradient(#fefefe, #5e82be);
     display: flex;
@@ -97,6 +124,8 @@ section {
     padding-bottom: 20px;
     text-align: center;
 }
+
+/* Fourth song: Fly me To The Moon */
 
 .page4 {
     background-image: linear-gradient(#1f82c5, #0e4f7a);
@@ -112,12 +141,23 @@ section {
     text-align: center;
 }
 
+/* Fifth song: Future Days */
 
 .page5 {
     background-image: linear-gradient(#755441, #3d3a2b);
     display: flex;
     justify-content: space-around;
 }
+
+.page5 > .description > h1 {
+    font-family: 'Dm_Serif';
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* Sixth song: Simplicidade */
 
 .page6 {
     background-image: linear-gradient(#0d1316, #7d5db9, #4e54a7);
@@ -129,6 +169,22 @@ section {
     font-family: 'Oswald';
     font-size: 50px;
     font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* Seventh song: Diga Sim Pra Mim */
+
+.page7 {
+    background-image: linear-gradient(#e35642, #b53c27);
+    display: flex;
+    justify-content: space-around;
+}
+
+.page7 > .description > h1 {
+    font-family: 'Satisfy';
+    font-size: 50px;
+    font-weight: 500;
     padding-bottom: 20px;
     text-align: center;
 }

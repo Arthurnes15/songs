@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Dancing';
+    src: url(../fonts/Dancing/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Alex_Brush';
+    src: url(../fonts/Alex_Brush/AlexBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Mr_De_Haviland';
+    src: url(../fonts/Mr_De_Haviland/MrDeHaviland-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Satisfy';
+    src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Dm_Serif';
+    src: url(../fonts/DM_Serif_Text/DMSerifText-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poiret_One';
+    src: url(../fonts/Poiret_One/PoiretOne-Regular.ttf);
+}
